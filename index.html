@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="style.css" rel="stylesheet">
+   <title>Quick Tip</title>
+</head>
+<body>
+   <main class="container">
+      <h1>Quick Tip</h1>
+      <section>
+         
+      <div class="space-between items">
+         <label for="bill">Bill</label>
+         <input id="bill" type="number" placeholder="Your Bill" ><br>
+      </div>
+      <div class="items">
+          <div class="space-between">
+            <label for="tipPercent">Select tip</label>
+            <span id="tip"></span>
+         </div>
+        <input id="tipPercente" type="range" min="0" max="100" > 
+      </div>
+      </div>   
+      <div class="space-between items"> 
+         <span>Tip</span>
+         <span id="totalTip"></span>
+      </div>
+      <hr>
+      <div class="space-between items">
+         <span>Total</span>
+         <span id="total"></span>
+      </div>
+      </section>
+      <section>
+         <div class="items">
+         <div class="space-between">
+            <label for="splitInput">Split</label>
+            <span id="split"></span><br>
+            </div>
+            <input id="splitInput" type="range" min="1" max="10" >
+         </div>
+         
+         <div class="space-between items">
+            <span>Bill each</span>
+            <span id="each"></span>
+         </div>
+         <div class="space-between items">
+            <span>Tip each</span>
+            <span id="eachTip"></span>
+         </div>
+      </section>
+   </main>
+  <script src="..\main.js"></script> 
+</body>
+</html>
